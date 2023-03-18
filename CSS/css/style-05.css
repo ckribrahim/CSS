@@ -1,0 +1,16 @@
+*{
+    font-size: 1.3rem;
+    color: mediumturquoise;
+}
+p.codered{
+    color: brown;
+    font-size: 1.5rem;
+    background-color: mediumaquamarine;
+}
+
+.center{
+    text-align: center;
+}
+#bravoSix{
+    font-size: 1.5rem;
+}
