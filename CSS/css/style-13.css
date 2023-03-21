@@ -1,0 +1,15 @@
+.box1{
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box2{
+    background-color: blue;
+    padding: 5px 20px;
+}
+em{
+    margin: 30px;
+}
+
+/* Inline elementler sadece yatayda padding ve margin alirlar */
