@@ -1,0 +1,18 @@
+h1{
+    font-size: 4rem;
+    color: darkgreen;
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aquamarine;
+    color: white;
+}
