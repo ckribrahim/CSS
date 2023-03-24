@@ -1,0 +1,22 @@
+nav.main-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav.main-menu li{
+    display: inline-block; 
+}
+/* Tiklanma alanini genisletmek icin a'ya verdik */
+nav.main-menu li a{
+    display: inline-block;
+    background-color: rgb(63, 224, 171);
+    padding: 8px 20px;
+    text-decoration: none;
+    color: beige;
+}
+
+nav.main-menu a:hover{
+    background-color: darkturquoise;
+    color: azure;
+}
