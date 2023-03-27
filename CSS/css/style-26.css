@@ -1,0 +1,29 @@
+nav.menu li{
+    color: maroon
+}
+
+nav.menu > ul > li{
+    color: green;
+}
+
+nav.menu ul ul > li{
+    color: firebrick;
+}
+
+nav.menu ul ul > li:last-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav.menu + p{
+    font-style: italic;
+}
+
+nav.menu ~ p{
+    font-size: 1.5rem;
+    color: maroon;
+}
+
+nav.menu ul li:nth-child(3)~li {
+   color: blueviolet
+}
