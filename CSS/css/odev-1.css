@@ -1,0 +1,18 @@
+.box{
+    display: block;
+}
+nav.list .menu{
+    list-style-type: "::";
+    margin: 10px;
+}
+.menu a{
+    text-decoration: none;
+}
+.list .div{
+    background-color: rgb(115, 111, 111);
+    display: inline-block;
+    
+}
+.menu li{
+    padding: 10px;  
+}
