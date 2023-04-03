@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --color1: #563770;
+  --color2: #f0eef2;
+  --color3: #fff0fe;
+}
+
+.main {
+  display: flex;
+  border: 5px solid var(--color1);
+  font-family: "Roboto", sans-serif;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.main .right{
+  background-image: url(../img/bg-login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex: 3 1 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff0fe;
+}
+
+.main .right h1,
+h3 {
+  margin: 5px;
+}
+
+.main .right h3 {
+  font-size: small;
+  font-weight: 400;
+}
+
+.main .left {
+  background-color: var(--color2);
+  flex: 2 1 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.main .left div:first-child i {
+  padding: 5px;
+  margin: 10px;
+}
+
+.main .left div:nth-child(2) {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: -25px;
+}
+
+.main .left div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main .left div:nth-child(3) > input {
+  border: none;
+  border-bottom: 2px dotted var(--color1);
+  box-sizing: border-box;
+  padding: 5px 60px 5px 0;
+  background-color: var(--color2);
+  opacity: 0.5;
+}
+
+.main .left div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main .left div:last-child button {
+  font-size: 1rem;
+  padding: 10px 50px;
+  border: none;
+  background-color: var(--color1);
+  color: var(--color3);
+  border-radius: 10px;
+}

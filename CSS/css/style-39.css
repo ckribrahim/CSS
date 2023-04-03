@@ -1,0 +1,42 @@
+.bg1{
+    background-image: linear-gradient(green, blue);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.bg2{
+    background-image: linear-gradient(maroon, orange, blue);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.bg3{
+    background-image: linear-gradient(to right, orange, green);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.bg4{
+    background-image: linear-gradient(30deg, purple, aqua);
+    padding: 50px;
+    margin-bottom: 20px;
+
+}
+
+.bg5{
+    background-image: linear-gradient(to right, red 55%, blue);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.bg6{
+    background-image: radial-gradient(red, blue);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.bg7{
+    background-image: radial-gradient(circle, red, blue);
+    padding: 50px;
+    margin-bottom: 20px;
+}
