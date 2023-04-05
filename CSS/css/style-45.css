@@ -1,0 +1,44 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin:20px auto;
+
+}
+
+.box1{
+    background-color: red;
+    transition: background-color 2s;
+}
+
+.box1:hover{
+    background-color: aqua;
+}
+.box2{
+    background-color: greenyellow;
+    transition: transform 0.7s;
+}
+.box2:hover{
+    transform: rotate(140deg);
+}
+
+.box3{
+    background-color: blue;
+    transition: transform 0.5s, background-color 1s;
+    
+}
+
+.box3:hover{
+    background-color: green;
+    transform: scale(1.5) rotate(85deg);
+}
+
+.box4{
+    background-color: chocolate;
+    transition: all 1s;
+}
+
+.box4:active{
+    transform: scale(2) rotate(270deg);
+    background-color: deepskyblue;
+    border-radius: 50%;
+}
