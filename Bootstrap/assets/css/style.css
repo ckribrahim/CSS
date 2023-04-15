@@ -1,0 +1,14 @@
+:root{
+    --primary: aqua;
+}
+
+
+.text-primary{
+color: var(--primary) !important;
+}
+
+
+
+.bg-primary{
+    color: var(--primary) !important;
+}
