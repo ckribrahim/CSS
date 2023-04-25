@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body class="p-3">
+    <div class="accordion" id="faq">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+           
+            data-bs-target="#collapseOne"
+          >
+            ITEM-1
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse show" id="collapseOne"  data-bs-parent="#faq">
+          <div class="accordion-body">CONTENT-1</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+          >
+            ITEM-2
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse" id="collapseTwo" data-bs-parent="#faq">
+          <div class="accordion-body">CONTENT-2</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+           
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse3"
+          >
+            ITEM-3
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse" id="collapse3"  data-bs-parent="#faq">
+          <div class="accordion-body">CONTENT-3</div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
